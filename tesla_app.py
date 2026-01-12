@@ -43,7 +43,6 @@ st.markdown('''
 # Title
 st.markdown('<p class="main-header">🚗 Tesla Stock Price Prediction</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Using Deep Learning (LSTM & SimpleRNN)</p>', unsafe_allow_html=True)
-st.markdown(" Соответствии с заявленной темой")
 
 # Sidebar
 st.sidebar.header(" Configuration")
@@ -63,7 +62,6 @@ prediction_days = st.sidebar.slider(
     help="Number of days to forecast into the future"
 )
 
-st.sidebar.markdown(" Соответствии с заявленной темой")
 st.sidebar.markdown("### 📊 About This App")
 st.sidebar.info(
     "This application uses deep learning models (LSTM and SimpleRNN) "
