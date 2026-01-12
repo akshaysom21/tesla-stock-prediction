@@ -8,9 +8,10 @@ tensorflow>=2.15.0
 
 # Additional common dependencies for stock prediction apps
 # (uncomment if needed in your app)
-# scikit-learn>=1.4.0
-# matplotlib>=3.8.0
-# yfinance>=0.2.35
-# plotly>=5.18.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+yfinance>=0.2.35
+plotly>=5.18.0
+
 
 
