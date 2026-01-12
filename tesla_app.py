@@ -20,13 +20,13 @@ st.set_page_config(
 st.markdown('''
 <style>
     .main-header {
-        font-size: 10rem;
+        font-size: 3rem;
         color: #E82127;
         text-align: center;
         font-weight: bold;
     }
     .sub-header {
-        font-size: 4rem;
+        font-size: 1.5rem;
         color: #666;
         text-align: center;
         margin-bottom: 2rem;
@@ -43,6 +43,7 @@ st.markdown('''
 # Title
 st.markdown('<p class="main-header">🚗 Tesla Stock Price Prediction</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Using Deep Learning (LSTM & SimpleRNN)</p>', unsafe_allow_html=True)
+st.markdown(" Соответствии с заявленной темой")
 
 # Sidebar
 st.sidebar.header(" Configuration")
